@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 // Replace with your actual frontend deployed URL
-const allowedOrigins = ['https://your-frontend-url.netlify.app'];
+const allowedOrigins = ['https://funny-piroshki-af4d9a.netlify.app/p'];
 
 app.use(cors({
   origin: function(origin, callback){
