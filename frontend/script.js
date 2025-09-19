@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000';  // Backend URL
+const API_BASE_URL = 'https://fullstack-backend-0k17.onrender.com';  // Backend URL
 
 async function addItem() {
   const nameInput = document.getElementById('itemName');
